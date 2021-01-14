@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="uHEjlL" name="Synth" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginCharacteristicsValue="pluginIsSynth,pluginProducesMidiOut,pluginWantsMidiIn">
+  <MAINGROUP id="SSN1i2" name="Synth">
+    <GROUP id="{F9C36353-566E-C711-CEEF-EB455C2839D8}" name="Maximilian">
+      <GROUP id="{C874D20F-5152-F0E0-9C79-9749A5E9297D}" name="cpp">
+        <GROUP id="{BF36B552-A24A-63C1-8EC1-73615ACA806D}" name="commandline">
+          <GROUP id="{DAC19305-F7FE-7910-7F51-9A1B6B316C6A}" name="maximilian_examples">
+            <FILE id="CLQ4od" name="1.TestTone.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/maximilian_examples/1.TestTone.cpp"/>
+            <FILE id="Zd5RNE" name="2.TwoTones.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/maximilian_examples/2.TwoTones.cpp"/>
+            <FILE id="zjMrQA" name="3.AM1.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/maximilian_examples/3.AM1.cpp"/>
+            <FILE id="Cw8j5A" name="4.AM2.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/maximilian_examples/4.AM2.cpp"/>
+            <FILE id="tlMBxg" name="5.FM1.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/maximilian_examples/5.FM1.cpp"/>
+            <FILE id="E1c85b" name="6.FM2.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/maximilian_examples/6.FM2.cpp"/>
+            <FILE id="LmbJXL" name="7.Counting1.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/maximilian_examples/7.Counting1.cpp"/>
+            <FILE id="OD8kU6" name="8.Counting2.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/maximilian_examples/8.Counting2.cpp"/>
+            <FILE id="i5fvaK" name="8.Counting3.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/maximilian_examples/8.Counting3.cpp"/>
+            <FILE id="lcCqXt" name="8.Counting4.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/maximilian_examples/8.Counting4.cpp"/>
+            <FILE id="ScEhjI" name="9.Envelopes.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/maximilian_examples/9.Envelopes.cpp"/>
+            <FILE id="s8RQEQ" name="10.Filters.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/maximilian_examples/10.Filters.cpp"/>
+            <FILE id="n8nL4V" name="11.Mixing.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/maximilian_examples/11.Mixing.cpp"/>
+            <FILE id="M5STlu" name="12.SamplePlayer.cpp" compile="1" resource="0"
+                  file="../Maximilian/cpp/commandline/maximilian_examples/12.SamplePlayer.cpp"/>
+            <FILE id="CnleAO" name="13.Advanced-Filters.cpp" compile="1" resource="0"
+                  file="../Maximilian/cpp/commandline/maximilian_examples/13.Advanced-Filters.cpp"/>
+            <FILE id="Jv2pga" name="14.monosynth.cpp" compile="1" resource="0"
+                  file="../Maximilian/cpp/commandline/maximilian_examples/14.monosynth.cpp"/>
+            <FILE id="FaNIfA" name="15.polysynth.cpp" compile="1" resource="0"
+                  file="../Maximilian/cpp/commandline/maximilian_examples/15.polysynth.cpp"/>
+            <FILE id="I8OoYu" name="16.Replicant.cpp" compile="1" resource="0"
+                  file="../Maximilian/cpp/commandline/maximilian_examples/16.Replicant.cpp"/>
+            <FILE id="GF8Nqh" name="17.Compressor.cpp" compile="1" resource="0"
+                  file="../Maximilian/cpp/commandline/maximilian_examples/17.Compressor.cpp"/>
+            <FILE id="wNg85M" name="18.DrumMachine.cpp" compile="1" resource="0"
+                  file="../Maximilian/cpp/commandline/maximilian_examples/18.DrumMachine.cpp"/>
+            <FILE id="MdiMxN" name="19.Enveloping2.cpp" compile="1" resource="0"
+                  file="../Maximilian/cpp/commandline/maximilian_examples/19.Enveloping2.cpp"/>
+            <FILE id="FSl2Nn" name="20.FFT_example.cpp" compile="1" resource="0"
+                  file="../Maximilian/cpp/commandline/maximilian_examples/20.FFT_example.cpp"/>
+            <FILE id="mYoMrI" name="21.Recording.cpp" compile="1" resource="0"
+                  file="../Maximilian/cpp/commandline/maximilian_examples/21.Recording.cpp"/>
+          </GROUP>
+          <GROUP id="{12716D02-EC59-F24D-A828-429B9F2009DC}" name="maximilianTest.xcodeproj">
+            <GROUP id="{06468E88-FA27-5664-436C-82FA7C2E054D}" name="project.xcworkspace">
+              <GROUP id="{702E9E95-CF97-DC89-4039-2104334C10E7}" name="xcshareddata">
+                <FILE id="P9u41q" name="IDEWorkspaceChecks.plist" compile="0" resource="1"
+                      file="../Maximilian/cpp/commandline/maximilianTest.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist"/>
+              </GROUP>
+              <FILE id="IaBJpv" name="contents.xcworkspacedata" compile="0" resource="1"
+                    file="../Maximilian/cpp/commandline/maximilianTest.xcodeproj/project.xcworkspace/contents.xcworkspacedata"/>
+            </GROUP>
+            <FILE id="E6l81d" name="project.pbxproj" compile="0" resource="1" file="../Maximilian/cpp/commandline/maximilianTest.xcodeproj/project.pbxproj"/>
+          </GROUP>
+          <GROUP id="{FE3E29F6-696A-FD22-9F49-4ACCC14CF250}" name="tests">
+            <GROUP id="{5FCE7903-627D-60C9-EAA4-9772E895BFC3}" name="ffttest">
+              <FILE id="zF5HF4" name="CMakeLists.txt" compile="0" resource="1" file="../Maximilian/cpp/commandline/tests/ffttest/CMakeLists.txt"/>
+              <FILE id="TjhnT8" name="ffttest.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/tests/ffttest/ffttest.cpp"/>
+            </GROUP>
+            <GROUP id="{E3E1E2D0-B66D-7E87-CF16-BD1FBEEFBBE8}" name="kuratest">
+              <FILE id="OXhZS7" name="CMakeLists.txt" compile="0" resource="1" file="../Maximilian/cpp/commandline/tests/kuratest/CMakeLists.txt"/>
+              <FILE id="qABOsI" name="kuratest.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/tests/kuratest/kuratest.cpp"/>
+            </GROUP>
+            <GROUP id="{325A08A4-2909-887C-D010-2C1F7F33893A}" name="mfcctest">
+              <FILE id="xkJP6s" name="CMakeLists.txt" compile="0" resource="1" file="../Maximilian/cpp/commandline/tests/mfcctest/CMakeLists.txt"/>
+              <FILE id="nwzpD9" name="mfcctest.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/tests/mfcctest/mfcctest.cpp"/>
+            </GROUP>
+            <GROUP id="{4A3EDA1B-D09E-F5DD-18B2-6D80CB052299}" name="svftest">
+              <FILE id="nSc3xH" name="CMakeLists.txt" compile="0" resource="1" file="../Maximilian/cpp/commandline/tests/svftest/CMakeLists.txt"/>
+              <FILE id="fmtwJQ" name="svftest.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/tests/svftest/svftest.cpp"/>
+            </GROUP>
+          </GROUP>
+          <FILE id="CLp4mh" name="beat2.wav" compile="0" resource="1" file="../Maximilian/cpp/commandline/beat2.wav"/>
+          <FILE id="tY0npl" name="blip.wav" compile="0" resource="1" file="../Maximilian/cpp/commandline/blip.wav"/>
+          <FILE id="Vzk75f" name="CMakeLists.txt" compile="0" resource="1" file="../Maximilian/cpp/commandline/CMakeLists.txt"/>
+          <FILE id="XiVI7V" name="crebit2.ogg" compile="0" resource="1" file="../Maximilian/cpp/commandline/crebit2.ogg"/>
+          <FILE id="kEvRdq" name="crebit2.wav" compile="0" resource="1" file="../Maximilian/cpp/commandline/crebit2.wav"/>
+          <FILE id="j024WR" name="main.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/main.cpp"/>
+          <FILE id="xuJwpN" name="maxi" compile="0" resource="1" file="../Maximilian/cpp/commandline/maxi"/>
+          <FILE id="lGTAwe" name="player.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/player.cpp"/>
+          <FILE id="BHeF5P" name="player.h" compile="0" resource="0" file="../Maximilian/cpp/commandline/player.h"/>
+          <FILE id="nD9Raf" name="portaudio.h" compile="0" resource="0" file="../Maximilian/cpp/commandline/portaudio.h"/>
+          <FILE id="rozUAY" name="README.txt" compile="0" resource="1" file="../Maximilian/cpp/commandline/README.txt"/>
+          <FILE id="K29aDC" name="RtAudio.cpp" compile="1" resource="0" file="../Maximilian/cpp/commandline/RtAudio.cpp"/>
+          <FILE id="nKCfXi" name="RtAudio.h" compile="0" resource="0" file="../Maximilian/cpp/commandline/RtAudio.h"/>
+          <FILE id="T8nxQr" name="RtError.h" compile="0" resource="0" file="../Maximilian/cpp/commandline/RtError.h"/>
+          <FILE id="SrxhQD" name="snare.wav" compile="0" resource="1" file="../Maximilian/cpp/commandline/snare.wav"/>
+          <FILE id="swnLKE" name="stb_vorbis.c" compile="1" resource="0" file="../Maximilian/cpp/commandline/stb_vorbis.c"/>
+          <FILE id="KNarzQ" name="stb_vorbis.h" compile="0" resource="0" file="../Maximilian/cpp/commandline/stb_vorbis.h"/>
+        </GROUP>
+        <GROUP id="{1CB7C884-68BD-6CEA-690C-0DC3D7E459A0}" name="openFrameworks">
+          <GROUP id="{30E9482B-A4C3-74AD-4336-BE234C7E67BF}" name="ofxMaxim">
+            <GROUP id="{50593F58-7AE6-82FA-88AE-93F71674588C}" name="libs">
+              <FILE id="Z9uwfe" name="fft.cpp" compile="1" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/libs/fft.cpp"/>
+              <FILE id="imNA6V" name="fft.h" compile="0" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/libs/fft.h"/>
+              <FILE id="Akqt5V" name="maxiAtoms.cpp" compile="1" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/libs/maxiAtoms.cpp"/>
+              <FILE id="Cykxpn" name="maxiAtoms.h" compile="0" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/libs/maxiAtoms.h"/>
+              <FILE id="BEynqw" name="maxiBark.cpp" compile="1" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/libs/maxiBark.cpp"/>
+              <FILE id="vpqTsu" name="maxiBark.h" compile="0" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/libs/maxiBark.h"/>
+              <FILE id="QAFnxT" name="maxiFFT.cpp" compile="1" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/libs/maxiFFT.cpp"/>
+              <FILE id="Yt55yG" name="maxiFFT.h" compile="0" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/libs/maxiFFT.h"/>
+              <FILE id="CJQIhr" name="maxiGrains.cpp" compile="1" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/libs/maxiGrains.cpp"/>
+              <FILE id="rIeLrW" name="maxiGrains.h" compile="0" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/libs/maxiGrains.h"/>
+              <FILE id="v0CwHY" name="maxiMFCC.cpp" compile="1" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/libs/maxiMFCC.cpp"/>
+              <FILE id="mE6qwz" name="maxiMFCC.h" compile="0" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/libs/maxiMFCC.h"/>
+              <FILE id="EBj8rE" name="maximilian.cpp" compile="1" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/libs/maximilian.cpp"/>
+              <FILE id="MB2ECU" name="maximilian.h" compile="0" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/libs/maximilian.h"/>
+              <FILE id="d9Zekl" name="sineTable.h" compile="0" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/libs/sineTable.h"/>
+              <FILE id="MKVyba" name="stb_vorbis.c" compile="1" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/libs/stb_vorbis.c"/>
+              <FILE id="niHTaY" name="stb_vorbis.h" compile="0" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/libs/stb_vorbis.h"/>
+            </GROUP>
+            <GROUP id="{23BB41F7-8744-5572-95B3-C12F41807DC5}" name="src">
+              <FILE id="vOY8dB" name="ofxMaxim.h" compile="0" resource="0" file="../Maximilian/cpp/openFrameworks/ofxMaxim/src/ofxMaxim.h"/>
+            </GROUP>
+            <FILE id="dnSJEc" name="install.xml" compile="0" resource="1" file="../Maximilian/cpp/openFrameworks/ofxMaxim/install.xml"/>
+          </GROUP>
+        </GROUP>
+        <FILE id="eAS53W" name="bigFiles.txt" compile="0" resource="1" file="../Maximilian/cpp/bigFiles.txt"/>
+      </GROUP>
+      <GROUP id="{E53F1E57-3B08-7943-89EB-FFBB54E696DC}" name="doc">
+        <FILE id="juD9jC" name="API-docs.md" compile="0" resource="1" file="../Maximilian/doc/API-docs.md"/>
+      </GROUP>
+      <GROUP id="{F9039AD0-9B28-C5FA-C134-15B382A1ED13}" name="js">
+        <GROUP id="{DE716D11-6AD3-9A55-4DCF-1B0CF021DFEE}" name="audio-worklet">
+          <GROUP id="{D994DFF2-448F-2B42-9DBF-3497A447FA47}" name="common">
+            <FILE id="KPJAYI" name="maximilian.post.js" compile="0" resource="1"
+                  file="../Maximilian/js/audio-worklet/common/maximilian.post.js"/>
+            <FILE id="fY125P" name="maximilian.util.js" compile="0" resource="1"
+                  file="../Maximilian/js/audio-worklet/common/maximilian.util.js"/>
+            <FILE id="MYBjTm" name="VariableBufferKernel.cc" compile="1" resource="0"
+                  file="../Maximilian/js/audio-worklet/common/VariableBufferKernel.cc"/>
+            <FILE id="KRJXym" name="wasm-audio-helper.js" compile="0" resource="1"
+                  file="../Maximilian/js/audio-worklet/common/wasm-audio-helper.js"/>
+          </GROUP>
+          <GROUP id="{CB1F6B35-6777-71A6-24BF-FEF577F5A65A}" name="examples">
+            <GROUP id="{2900D080-4473-BC73-0A43-DB2A0B81AFF4}" name="00-custom-processor">
+              <FILE id="SKreQx" name="custom-processor.js" compile="0" resource="1"
+                    file="../Maximilian/js/audio-worklet/examples/00-custom-processor/custom-processor.js"/>
+              <FILE id="Q9O1Zd" name="index.html" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/00-custom-processor/index.html"/>
+            </GROUP>
+            <GROUP id="{4662737E-0BCD-1F7C-3B6D-730DD1C7C745}" name="01-maxi-processor-base">
+              <FILE id="HtWbud" name="index.html" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/01-maxi-processor-base/index.html"/>
+              <FILE id="GtKuLP" name="maxi-processor.js" compile="0" resource="1"
+                    file="../Maximilian/js/audio-worklet/examples/01-maxi-processor-base/maxi-processor.js"/>
+            </GROUP>
+            <GROUP id="{5E5FC909-AEBC-BE97-E071-394039B122C6}" name="02-maxi-processor-hot-swapping-worklets">
+              <FILE id="gOxppu" name="index.html" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/02-maxi-processor-hot-swapping-worklets/index.html"/>
+              <FILE id="CAR6cq" name="maxi-processor.js" compile="0" resource="1"
+                    file="../Maximilian/js/audio-worklet/examples/02-maxi-processor-hot-swapping-worklets/maxi-processor.js"/>
+            </GROUP>
+            <GROUP id="{D91E4278-388B-978A-F701-91184B8388C4}" name="03-maxi-processor-eval-message">
+              <FILE id="S2rCs4" name="index.html" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/03-maxi-processor-eval-message/index.html"/>
+              <FILE id="b71EKK" name="maxi-processor.js" compile="0" resource="1"
+                    file="../Maximilian/js/audio-worklet/examples/03-maxi-processor-eval-message/maxi-processor.js"/>
+            </GROUP>
+            <GROUP id="{E0457920-CEC2-C122-40C2-2DAFED7A35FD}" name="04-maxi-processor-audioin">
+              <FILE id="QlE6DX" name="index.html" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/04-maxi-processor-audioin/index.html"/>
+              <FILE id="J1DexZ" name="maxi-audio-processor.js" compile="0" resource="1"
+                    file="../Maximilian/js/audio-worklet/examples/04-maxi-processor-audioin/maxi-audio-processor.js"/>
+            </GROUP>
+            <GROUP id="{55E70EFC-E9C8-9E92-44AB-DBB32FAD44B9}" name="05-maxi-processor-sequencer">
+              <FILE id="ism1wK" name="909.wav" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/05-maxi-processor-sequencer/909.wav"/>
+              <FILE id="WvHAuX" name="909a.ogg" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/05-maxi-processor-sequencer/909a.ogg"/>
+              <FILE id="jgQVs4" name="909b.wav" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/05-maxi-processor-sequencer/909b.wav"/>
+              <FILE id="BK5dtf" name="909closed.wav" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/05-maxi-processor-sequencer/909closed.wav"/>
+              <FILE id="dvLdGL" name="909open.wav" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/05-maxi-processor-sequencer/909open.wav"/>
+              <FILE id="vQhQZN" name="index.html" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/05-maxi-processor-sequencer/index.html"/>
+              <FILE id="WnoP9U" name="maxi-processor.js" compile="0" resource="1"
+                    file="../Maximilian/js/audio-worklet/examples/05-maxi-processor-sequencer/maxi-processor.js"/>
+            </GROUP>
+            <GROUP id="{183E6660-75A6-F4E0-7A41-98A3C182D444}" name="06-maxi-processor-synth-pool">
+              <FILE id="jrQAvk" name="index.html" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/06-maxi-processor-synth-pool/index.html"/>
+              <FILE id="rlVKWC" name="maxi-processor.js" compile="0" resource="1"
+                    file="../Maximilian/js/audio-worklet/examples/06-maxi-processor-synth-pool/maxi-processor.js"/>
+            </GROUP>
+            <GROUP id="{C9EF162E-4C66-7E7E-1758-6643260F7703}" name="07-maxi-processor-granular">
+              <FILE id="vqEatU" name="beat2.wav" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/07-maxi-processor-granular/beat2.wav"/>
+              <FILE id="Zd8YPd" name="index.html" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/07-maxi-processor-granular/index.html"/>
+              <FILE id="Z1NSy4" name="maxi-audio-processor.js" compile="0" resource="1"
+                    file="../Maximilian/js/audio-worklet/examples/07-maxi-processor-granular/maxi-audio-processor.js"/>
+            </GROUP>
+            <GROUP id="{10E865E5-CC7D-B400-45D4-E6865AD109C5}" name="08-maxi-processor-proto-engine">
+              <FILE id="kNaKXK" name="909.wav" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/08-maxi-processor-proto-engine/909.wav"/>
+              <FILE id="Sg2z5u" name="909b.wav" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/08-maxi-processor-proto-engine/909b.wav"/>
+              <FILE id="NohzHm" name="909closed.wav" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/08-maxi-processor-proto-engine/909closed.wav"/>
+              <FILE id="F8s8uE" name="909open.wav" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/08-maxi-processor-proto-engine/909open.wav"/>
+              <FILE id="qney2A" name="index.html" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/08-maxi-processor-proto-engine/index.html"/>
+              <FILE id="iBwYS1" name="maxi-processor.js" compile="0" resource="1"
+                    file="../Maximilian/js/audio-worklet/examples/08-maxi-processor-proto-engine/maxi-processor.js"/>
+            </GROUP>
+            <GROUP id="{1E86B91C-133F-AAAC-802F-AF4F62B2CA86}" name="09-maxi-processor-ring-buffer">
+              <FILE id="Cp9l62" name="index.html" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/09-maxi-processor-ring-buffer/index.html"/>
+              <FILE id="Np8rNU" name="ring-buffer-maxi-audio-processor.js" compile="0"
+                    resource="1" file="../Maximilian/js/audio-worklet/examples/09-maxi-processor-ring-buffer/ring-buffer-maxi-audio-processor.js"/>
+            </GROUP>
+            <GROUP id="{346DB0F0-876F-21FE-DB15-89D2E0457720}" name="10-maxi-processor-FFT">
+              <FILE id="lBxdt8" name="beat2.wav" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/10-maxi-processor-FFT/beat2.wav"/>
+              <FILE id="mkh6NB" name="index.html" compile="0" resource="1" file="../Maximilian/js/audio-worklet/examples/10-maxi-processor-FFT/index.html"/>
+              <FILE id="U2Vlz0" name="maxi-processor.js" compile="0" resource="1"
+                    file="../Maximilian/js/audio-worklet/examples/10-maxi-processor-FFT/maxi-processor.js"/>
+            </GROUP>
+          </GROUP>
+          <FILE id="H1HjVu" name="Makefile" compile="0" resource="1" file="../Maximilian/js/audio-worklet/Makefile"/>
+        </GROUP>
+        <GROUP id="{0590A186-FB59-483E-216C-F37644CEB663}" name="script-processor-node">
+          <GROUP id="{392F8D57-83B5-7822-F10D-A22E2D5C9677}" name="examples">
+            <GROUP id="{793CE92F-6FFC-604E-DE8E-24C1D12D5598}" name="audio">
+              <FILE id="Y6FwEu" name="beat2.wav" compile="0" resource="1" file="../Maximilian/js/script-processor-node/examples/audio/beat2.wav"/>
+              <FILE id="sBYsHv" name="crebit2.ogg" compile="0" resource="1" file="../Maximilian/js/script-processor-node/examples/audio/crebit2.ogg"/>
+              <FILE id="yXDaUK" name="hat12.wav" compile="0" resource="1" file="../Maximilian/js/script-processor-node/examples/audio/hat12.wav"/>
+              <FILE id="tKSC4X" name="kick1.wav" compile="0" resource="1" file="../Maximilian/js/script-processor-node/examples/audio/kick1.wav"/>
+              <FILE id="iEEeE0" name="kick3.wav" compile="0" resource="1" file="../Maximilian/js/script-processor-node/examples/audio/kick3.wav"/>
+              <FILE id="fRrVNF" name="snare1.wav" compile="0" resource="1" file="../Maximilian/js/script-processor-node/examples/audio/snare1.wav"/>
+            </GROUP>
+            <FILE id="cvKCCU" name="00-maximillian.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/00-maximillian.html"/>
+            <FILE id="h7lPLG" name="01-test-tone.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/01-test-tone.html"/>
+            <FILE id="aqsiCk" name="02-two-tones.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/02-two-tones.html"/>
+            <FILE id="wBDwtE" name="03-AM-1.html" compile="0" resource="1" file="../Maximilian/js/script-processor-node/examples/03-AM-1.html"/>
+            <FILE id="zgIcOG" name="04-AM-2.html" compile="0" resource="1" file="../Maximilian/js/script-processor-node/examples/04-AM-2.html"/>
+            <FILE id="PKQqEj" name="05-FM-1.html" compile="0" resource="1" file="../Maximilian/js/script-processor-node/examples/05-FM-1.html"/>
+            <FILE id="F05CaZ" name="06-FM-2.html" compile="0" resource="1" file="../Maximilian/js/script-processor-node/examples/06-FM-2.html"/>
+            <FILE id="slF60x" name="07-sample-player.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/07-sample-player.html"/>
+            <FILE id="zIv2ce" name="08-counting-1.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/08-counting-1.html"/>
+            <FILE id="IxRAUf" name="08-counting-2.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/08-counting-2.html"/>
+            <FILE id="b0lK5D" name="08-counting-3.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/08-counting-3.html"/>
+            <FILE id="FLfsLn" name="08-counting-4.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/08-counting-4.html"/>
+            <FILE id="MPIssH" name="09-envelopes.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/09-envelopes.html"/>
+            <FILE id="SMYEZA" name="10-filters-SVF.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/10-filters-SVF.html"/>
+            <FILE id="A0Vfy2" name="10-filters.html" compile="0" resource="1" file="../Maximilian/js/script-processor-node/examples/10-filters.html"/>
+            <FILE id="cytC7i" name="11-advanced-filters.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/11-advanced-filters.html"/>
+            <FILE id="dtyaCV" name="12-mixing.html" compile="0" resource="1" file="../Maximilian/js/script-processor-node/examples/12-mixing.html"/>
+            <FILE id="SYlTPi" name="13-monosynth.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/13-monosynth.html"/>
+            <FILE id="awepcT" name="14-polysnth.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/14-polysnth.html"/>
+            <FILE id="fBZCgO" name="15-replicant.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/15-replicant.html"/>
+            <FILE id="rJFKQK" name="16-compressor.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/16-compressor.html"/>
+            <FILE id="H2byEZ" name="17-drum-machine.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/17-drum-machine.html"/>
+            <FILE id="h9EGms" name="18-enveloping.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/18-enveloping.html"/>
+            <FILE id="x6kt23" name="19-additive-synthesis.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/19-additive-synthesis.html"/>
+            <FILE id="bAu05A" name="20-analysis-FFT.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/20-analysis-FFT.html"/>
+            <FILE id="SjO2E2" name="20-analysis-MFCC.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/20-analysis-MFCC.html"/>
+            <FILE id="Dm3elZ" name="20-analysis.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/20-analysis.html"/>
+            <FILE id="QcdI1t" name="21-granular-synthesis.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/21-granular-synthesis.html"/>
+            <FILE id="kR3Wvt" name="22-sample-player-base64.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/22-sample-player-base64.html"/>
+            <FILE id="OXsh4g" name="23-kuramoto.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/23-kuramoto.html"/>
+            <FILE id="ksRdVq" name="24-bitsynthesis.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/24-bitsynthesis.html"/>
+            <FILE id="hB2mnA" name="25-StateVariableFilter.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/25-StateVariableFilter.html"/>
+            <FILE id="Jm5jtA" name="26-SpectralProcessing.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/26-SpectralProcessing.html"/>
+            <FILE id="RU49Yk" name="27-MFCCs.html" compile="0" resource="1" file="../Maximilian/js/script-processor-node/examples/27-MFCCs.html"/>
+            <FILE id="LXodm9" name="server.py" compile="0" resource="1" file="../Maximilian/js/script-processor-node/examples/server.py"/>
+            <FILE id="UYdKIj" name="X_ManualWebAudio.html" compile="0" resource="1"
+                  file="../Maximilian/js/script-processor-node/examples/X_ManualWebAudio.html"/>
+          </GROUP>
+          <FILE id="XKPgsO" name="Makefile" compile="0" resource="1" file="../Maximilian/js/script-processor-node/Makefile"/>
+          <FILE id="Iw40FM" name="maximilian.post.js" compile="0" resource="1"
+                file="../Maximilian/js/script-processor-node/maximilian.post.js"/>
+        </GROUP>
+        <FILE id="UZrW6P" name="server.py" compile="0" resource="1" file="../Maximilian/js/server.py"/>
+      </GROUP>
+      <GROUP id="{096FC355-EA4A-2BDF-86FC-ACDFBFCB39B4}" name="src">
+        <GROUP id="{53294384-8555-9640-31D7-359CB91ECD69}" name="libs">
+          <FILE id="oMXyZh" name="fft.cpp" compile="1" resource="0" file="../Maximilian/src/libs/fft.cpp"/>
+          <FILE id="nd2wjE" name="fft.h" compile="0" resource="0" file="../Maximilian/src/libs/fft.h"/>
+          <FILE id="zsyxdO" name="maxiAtoms.cpp" compile="1" resource="0" file="../Maximilian/src/libs/maxiAtoms.cpp"/>
+          <FILE id="pxaZlg" name="maxiAtoms.h" compile="0" resource="0" file="../Maximilian/src/libs/maxiAtoms.h"/>
+          <FILE id="MqqMP4" name="maxiBark.cpp" compile="1" resource="0" file="../Maximilian/src/libs/maxiBark.cpp"/>
+          <FILE id="rxyPWD" name="maxiBark.h" compile="0" resource="0" file="../Maximilian/src/libs/maxiBark.h"/>
+          <FILE id="NzjhfH" name="maxiConvolve.cpp" compile="1" resource="0"
+                file="../Maximilian/src/libs/maxiConvolve.cpp"/>
+          <FILE id="LQOPVt" name="maxiConvolve.h" compile="0" resource="0" file="../Maximilian/src/libs/maxiConvolve.h"/>
+          <FILE id="kyo2FY" name="maxiFFT.cpp" compile="1" resource="0" file="../Maximilian/src/libs/maxiFFT.cpp"/>
+          <FILE id="TWI8U7" name="maxiFFT.h" compile="0" resource="0" file="../Maximilian/src/libs/maxiFFT.h"/>
+          <FILE id="erIkZy" name="maxiGrains.cpp" compile="1" resource="0" file="../Maximilian/src/libs/maxiGrains.cpp"/>
+          <FILE id="HpC2xi" name="maxiGrains.h" compile="0" resource="0" file="../Maximilian/src/libs/maxiGrains.h"/>
+          <FILE id="xuE6U3" name="maxim.h" compile="0" resource="0" file="../Maximilian/src/libs/maxim.h"/>
+          <FILE id="V2nxQv" name="maxiMFCC.cpp" compile="1" resource="0" file="../Maximilian/src/libs/maxiMFCC.cpp"/>
+          <FILE id="IeK9F5" name="maxiMFCC.h" compile="0" resource="0" file="../Maximilian/src/libs/maxiMFCC.h"/>
+          <FILE id="IY8ars" name="maxiReverb.cpp" compile="1" resource="0" file="../Maximilian/src/libs/maxiReverb.cpp"/>
+          <FILE id="aTowmr" name="maxiReverb.h" compile="0" resource="0" file="../Maximilian/src/libs/maxiReverb.h"/>
+          <FILE id="FTO3SE" name="maxiSynths.cpp" compile="1" resource="0" file="../Maximilian/src/libs/maxiSynths.cpp"/>
+          <FILE id="Y83dnR" name="maxiSynths.h" compile="0" resource="0" file="../Maximilian/src/libs/maxiSynths.h"/>
+          <FILE id="NzmPfw" name="sineTable.h" compile="0" resource="0" file="../Maximilian/src/libs/sineTable.h"/>
+          <FILE id="qYJyRB" name="stb_vorbis.c" compile="1" resource="0" file="../Maximilian/src/libs/stb_vorbis.c"/>
+          <FILE id="TyfSSo" name="stb_vorbis.h" compile="0" resource="0" file="../Maximilian/src/libs/stb_vorbis.h"/>
+        </GROUP>
+        <FILE id="mhSAkU" name="maximilian.cpp" compile="1" resource="0" file="../Maximilian/src/maximilian.cpp"/>
+        <FILE id="h4cnEG" name="maximilian.embind.cpp" compile="1" resource="0"
+              file="../Maximilian/src/maximilian.embind.cpp"/>
+        <FILE id="O2QlSL" name="maximilian.h" compile="0" resource="0" file="../Maximilian/src/maximilian.h"/>
+      </GROUP>
+      <FILE id="jOR8ln" name="README.md" compile="0" resource="1" file="../Maximilian/README.md"/>
+    </GROUP>
+    <GROUP id="{01436CDA-E7B1-0031-7A54-D98F5F561FE8}" name="Source">
+      <FILE id="gfIQZm" name="Oscillator2.cpp" compile="1" resource="0" file="Source/Oscillator2.cpp"/>
+      <FILE id="qrA0Pc" name="Oscillator2.h" compile="0" resource="0" file="Source/Oscillator2.h"/>
+      <FILE id="MhInMU" name="Oscillator.cpp" compile="1" resource="0" file="Source/Oscillator.cpp"/>
+      <FILE id="GQb6vE" name="Oscillator.h" compile="0" resource="0" file="Source/Oscillator.h"/>
+      <FILE id="ti5EFy" name="Frontgui.cpp" compile="1" resource="0" file="Source/Frontgui.cpp"/>
+      <FILE id="jSC5Hj" name="Frontgui.h" compile="0" resource="0" file="Source/Frontgui.h"/>
+      <FILE id="QLQWit" name="Filter.cpp" compile="1" resource="0" file="Source/Filter.cpp"/>
+      <FILE id="wvvRFR" name="Filter.h" compile="0" resource="0" file="Source/Filter.h"/>
+      <FILE id="Bxi0AM" name="Enveloppe.cpp" compile="1" resource="0" file="Source/Enveloppe.cpp"/>
+      <FILE id="tMKpC9" name="Enveloppe.h" compile="0" resource="0" file="Source/Enveloppe.h"/>
+      <FILE id="d2hwUW" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="KQLHBA" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="LjnpW3" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="HcQpVV" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="T1SAQ5" name="SynthVoice.cpp" compile="1" resource="0" file="Source/SynthVoice.cpp"/>
+      <FILE id="gClDUy" name="SynthSound.h" compile="0" resource="0" file="Source/SynthSound.h"/>
+      <FILE id="dv1TuW" name="SynthVoice.h" compile="0" resource="0" file="Source/SynthVoice.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Synth" headerPath="C:\Users\Viet-\Documents\JUCE\Synth\Source\Maximilian"/>
+        <CONFIGURATION isDebug="1" name="Release" targetName="Synth" headerPath="C:\Users\Viet-\Documents\JUCE\Maximilian"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="1"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
